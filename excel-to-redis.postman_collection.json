@@ -1,0 +1,26 @@
+{
+	"info": {
+		"_postman_id": "036e098b-9c9c-4f97-8798-ed358f777d19",
+		"name": "excel-to-redis",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26971417"
+	},
+	"item": [
+		{
+			"name": "upload",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "search",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
