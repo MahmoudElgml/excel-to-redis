@@ -8,7 +8,7 @@ This is a simple Node.js application built with TypeScript that allows you to up
 
 - Upload an Excel file and convert it to JSON
 - Store the JSON data in Redis
-- Search the stored JSON data
+- Search the stored JSON data 
 
 ## Requirements
 
@@ -31,8 +31,6 @@ This is a simple Node.js application built with TypeScript that allows you to up
     ```
 
 3. **Start the application**
-
-    Ensure you have a `tsconfig.json` file in the root of your project:
 
     ```bash
     npm start
