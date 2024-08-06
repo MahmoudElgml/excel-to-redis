@@ -1,5 +1,6 @@
-## "بسم الله الرحمن الرحيم"
-
+<div align="center">
+  <h3 align="center">"بسم الله الرحمن الرحيم"</h3>
+</div>
 # Excel to Redis
 
 This is a simple Node.js application built with TypeScript that allows you to upload an Excel file, convert it to JSON, and store it in a Redis database. The application also provides a search functionality to query the stored JSON data.
@@ -36,6 +37,6 @@ This is a simple Node.js application built with TypeScript that allows you to up
     npm start
     ```
 
-## "هذا من فضل ربي"
-
-
+<div align="center">
+  <h3 align="center">"هذا من فضل ربي"</h3>
+</div>
