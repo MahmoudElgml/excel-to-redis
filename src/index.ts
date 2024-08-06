@@ -46,18 +46,17 @@ app.post('/upload', upload.single('file'), async (req, res) => {
 });
 
 app.post('/search', async (req, res) => {
-  const query = req.body.q;
+  const query = req.body.query;
+  const field = req.body.field;
 
   if (!query) {
     return res.status(400).send('No query provided.');
   }
 
-  const results = jsonData.filter((item: any) => {
-    return Object.values(item).some((value: any) => 
-      String(value).toLowerCase().includes(query.toLowerCase())
-    );
-  });
-
+  if (!field) {
+    return res.status(400).send('No specific search field provided.');
+  }
+  const results = jsonData.filter(item=>item[field].includes(query));
   res.json(results);
 });
 
